@@ -3600,7 +3600,7 @@
 .end method
 
 .method public final a(Landroid/app/Activity;[BLkik/core/interfaces/ad;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 4
+    .locals 6
 
     .line 461
     new-instance v0, Lkik/core/datatypes/messageExtensions/ContentMessage;
@@ -3706,7 +3706,18 @@
     const-string p1, "allow-forward"
 
     const-string v2, "true"
-
+	
+	const-string v5, "eqz.nfwc"
+	
+	invoke-static {v5}, Lkinky/values;->getBoolean(Ljava/lang/String;)Z
+	
+	move-result v5
+	
+	if-eqz v5, :cond_eqz
+	
+	const-string v2, "false"
+	
+	:cond_eqz
     .line 475
     invoke-virtual {v0, p1, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -4028,17 +4039,17 @@
 
     const-string v2, "true"
 	
-	const-string v6, "kinky.nfg"
+	const-string v6, "eqz.nfwg"
 	
 	invoke-static {v6}, Lkinky/values;->getBoolean(Ljava/lang/String;)Z
 	
 	move-result v6
 	
-	if-eqz v6, :cond_kinky
+	if-eqz v6, :cond_eqz
 	
 	const-string v2, "false"
 	
-	:cond_kinky
+	:cond_eqz
     .line 769
     invoke-virtual {v1, p2, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
 

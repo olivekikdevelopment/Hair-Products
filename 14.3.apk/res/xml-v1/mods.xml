@@ -21,4 +21,7 @@
 	<kinky.Empty android:title="Chat List / Conversations" />
 	<kinky.List android:entries="@array/privacy_mode" android:title="Privacy Mode" android:key="kinky.private" android:summary="hides conversations screen messages" android:entryValues="@array/privacy_mode" />
 	<kinky.T android:title="No Pull" android:summary="disables pull to search" android:key="kinky.pull" />
+	<kinky.Empty android:title="No Forward Mods" />
+	<kinky.T android:title="No Forward Gallery" android:summary="Users can no longer forward your gallery pictures" android:key="eqz.nfwg" />
+		<kinky.T android:title="No Forward Camera" android:summary="Users can no longer forward your camera pictures" android:key="eqz.nfwc" />
 </PreferenceScreen>
