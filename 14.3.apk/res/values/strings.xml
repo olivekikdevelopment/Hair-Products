@@ -130,7 +130,7 @@ http://help.kik.com"</string>
     <string name="always_allow">Always Allow</string>
     <string name="always_allow_app_to_launch_external">Always allow this app to launch external content</string>
     <string name="always_allow_this_app_to_send_large_messages">Always allow this app to send large messages</string>
-    <string name="app_name">Kik</string>
+    <string name="app_name">OliveBeta</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="application_is_trying_to_launch_x">"This application is trying to launch %1$s 
 Do you want to continue?"</string>
