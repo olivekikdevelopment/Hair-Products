@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/white" />
+    <item android:drawable="@color/olive_background" />
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/img_splash" />
+        <bitmap android:gravity="center" android:tint="#ff98ff98" android:src="@drawable/logo_olive" />
     </item>
 </layer-list>
