@@ -1,0 +1,43 @@
+.class final synthetic Lkik/android/chat/vm/messaging/cq;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field private final a:Lkik/android/chat/vm/messaging/cl;
+
+
+# direct methods
+.method private constructor <init>(Lkik/android/chat/vm/messaging/cl;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lkik/android/chat/vm/messaging/cq;->a:Lkik/android/chat/vm/messaging/cl;
+
+    return-void
+.end method
+
+.method public static a(Lkik/android/chat/vm/messaging/cl;)Ljava/lang/Runnable;
+    .locals 1
+
+    new-instance v0, Lkik/android/chat/vm/messaging/cq;
+
+    invoke-direct {v0, p0}, Lkik/android/chat/vm/messaging/cq;-><init>(Lkik/android/chat/vm/messaging/cl;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    iget-object v0, p0, Lkik/android/chat/vm/messaging/cq;->a:Lkik/android/chat/vm/messaging/cl;
+
+    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/cl;->ap()V
+
+    return-void
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/half_dp" android:color="@color/olive_theme" />
+            <solid android:color="@color/olive_tab" />
+            <size android:height="56.0dip" android:width="56.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@xml/emoji_status_item_background_selector" />
+</selector>

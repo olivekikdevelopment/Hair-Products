@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autoplay_video_options">
+        <item>@string/wifi_only</item>
+        <item>@string/wifi_and_cellular</item>
+        <item>@string/never_autoplay_videos</item>
+    </string-array>
+    <string-array name="chat_bubble_colors">
+        <item>@string/Blue</item>
+        <item>@string/Green</item>
+        <item>@string/Silver</item>
+        <item>@string/Gold</item>
+        <item>@string/Pink</item>
+        <item>@string/Purple</item>
+        <item>@string/Orange</item>
+        <item>@string/Red</item>
+    </string-array>
+    <string-array name="chat_bubble_values">
+        <item>out_message_selector_blue</item>
+        <item>out_message_selector_green</item>
+        <item>out_message_selector_silver</item>
+        <item>out_message_selector_yellow</item>
+        <item>out_message_selector_pink</item>
+        <item>out_message_selector_violet</item>
+        <item>out_message_selector_orange</item>
+        <item>out_message_selector_red</item>
+    </string-array>
+    <string-array name="led_colors">
+        <item>@string/None</item>
+        <item>@string/Red</item>
+        <item>@string/Blue</item>
+        <item>@string/Green</item>
+        <item>@string/White</item>
+    </string-array>
+    <string-array name="led_values">
+        <item>00000000</item>
+        <item>ffff0000</item>
+        <item>ff0000ff</item>
+        <item>ff00ff00</item>
+        <item>ffffffff</item>
+    </string-array>
+    <string-array name="prefetch_video_options">
+        <item>@string/wifi_only</item>
+        <item>@string/wifi_and_cellular</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="refreshDeviceListForNewSurface">
+        <item>LG-H340</item>
+    </string-array>
+	<string-array name="kinky_colors">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Mint</item>
+        <item>Yellow</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="kinky_receipts">
+        <item>Normal</item>
+        <item>Delivered</item>
+        <item>Stealth</item>
+    </string-array>
+	<string-array name="kinky_disable_typing">
+		<item>Normal</item>
+		<item>Disabled</item>
+	</string-array>
+	<string-array name="kinky_on_off">
+		<item>Off</item>
+		<item>On</item>
+	</string-array>
+	<string-array name="privacy_mode">
+		<item>Normal</item>
+		<item>...</item>
+		<item>Hidden</item>
+		<item>Error 404</item>
+		<item>Kinky was here</item>
+		<item>Private</item>
+	</string-array>
+	<string-array name="noti_icon">
+		<item>Stock Kik</item>
+		<item>Old Kik</item>
+		<item>Java</item>
+		<item>Smiley Face</item>
+		<item>Pi</item>
+		<item>Leaves</item>
+		<item>Google Photos</item>
+		<item>Middle Finger</item>
+		<item>Weed</item>
+		<item>Playboy</item>
+		<item>Anon</item>
+		<item>Dick</item>
+		<item>Chaos</item>
+	</string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<public type="id" name="dev_tab" id="0x7f090487" />
+	<public type="id" name="mod_tab" id="0x7f090488" />
+	<public type="id" name="kinkster" id="0x7f090489" />
+	<public type="color" name="olive_theme" id="0x7f060120" />
+	<public type="color" name="olive_grey" id="0x7f060121" />
+	<public type="drawable" name="ic_kinky_kik" id="0x7f0803e6" />
+	<public type="drawable" name="ic_kinky_old_kik" id="0x7f0803e7" />
+	<public type="drawable" name="ic_kinky_pi" id="0x7f0803e8" />
+	<public type="drawable" name="ic_kinky_finger" id="0x7f0803e9" />
+	<public type="drawable" name="ic_kinky_playboy" id="0x7f0803ea" />
+	<public type="drawable" name="ic_kinky_chaos" id="0x7f0803eb" />
+	<public type="drawable" name="ic_kinky_leaves" id="0x7f0803ec" />
+	<public type="drawable" name="ic_kinky_java" id="0x7f0803ed" />
+	<public type="drawable" name="ic_kinky_google_photos" id="0x7f0803ee" />
+	<public type="drawable" name="ic_kinky_dick" id="0x7f0803ef" />
+	<public type="drawable" name="ic_kinky_anon" id="0x7f0803f0" />
+	<public type="drawable" name="ic_kinky_weed" id="0x7f0803f1" />
+	<public type="drawable" name="ic_kinky_smile" id="0x7f0803f2" />
+	<public type="xml" name="mods" id="0x7f120023" />
+	<public type="xml" name="ic_read_receipt_delivered_tint" id="0x7f120024" />
+	<public type="xml" name="ic_read_receipt_ellipsis_tint" id="0x7f120025" />
+	<public type="xml" name="ic_read_receipt_error_tint" id="0x7f120026" />
+	<public type="xml" name="ic_read_receipt_incoming_tint" id="0x7f120027" />
+	<public type="xml" name="ic_read_receipt_pushed_tint" id="0x7f120028" />
+	<public type="xml" name="ic_read_receipt_read_tint" id="0x7f120029" />
+	<public type="xml" name="ic_read_receipt_sent_tint" id="0x7f12002a" />
+</resources>

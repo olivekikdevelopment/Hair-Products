@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="olive_background">#ff161616</color>
+	<color name="olive_tab">#ff222222</color>
+	<color name="olive_divider">#ff151515</color>
+	<color name="olive_theme">#ff98ff98</color>
+	<color name="olive_white">#ffefefef</color>
+	<color name="olive_grey">#ffb2b2b2</color>
+	<color name="olive_black">#ff000000</color>
+</resources>

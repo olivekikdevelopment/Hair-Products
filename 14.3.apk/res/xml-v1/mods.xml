@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Mods"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<kinky.Empty android:title="Group Chat" />
+	<kinky.T android:title="Blur Media" android:summary="media received in public groups will be blurred" android:key="kinky.blur" />
+	<kinky.T android:title="Public Group Dms" android:summary="in chat info of public groups you can disable people being able to dm you" android:key="mofi.pg" />
+	<kinky.T android:title="Admin Badges" android:summary="when enabled admins will receive badges in group chats" android:key="kinky.admin" />
+	<kinky.T android:title="Public Group Notifications" android:summary="changes how you can mute public groups in chat info" android:key="kinky.noti" />
+	<kinky.Empty android:title="Misc" />
+	<kinky.T android:title="Fake Camera" android:summary="gallery pictures will send as live pictures" android:key="kinky.fakecam" />
+	<kinky.T android:title="Do Not Disturb" android:summary="automatically leave groups you were added to" android:key="kinky.disturb" />
+	<kinky.List android:entries="@array/noti_icon" android:title="Notification Icon Changer" android:key="kinky.notiicon" android:summary="the change will take place when you get a new kik notification" android:entryValues="@array/noti_icon" />
+	<kinky.Empty android:title="Chat" />
+	<kinky.T android:title="Disable Typing" android:summary="disables other users from seeing when you type" android:key="mofi.typing" />
+	<kinky.List android:entries="@array/kinky_receipts" android:title="Read Receipts" android:key="kinky.receipt" android:summary="how your messages are perceived" android:entryValues="@array/kinky_receipts" />
+	<kinky.T android:title="Disable Vid Chat" android:summary="disables the video chatting option" android:key="kinky.vid" />
+	<kinky.T android:title="Enable Gif Favorites" android:summary="allows you to store gifs you like" android:key="kinky.gif" />
+	<kinky.T android:title="Enable Multi Photos" android:summary="allows you to send up to 5 pics or vids at once" android:key="kinky.multi" />
+	<kinky.Empty android:title="Profile" />
+	<kinky.T android:title="Enable Bios" android:summary="set your bio in settings and view other users in chat info" android:key="kinky.bios" />
+	<kinky.Empty android:title="Chat List / Conversations" />
+	<kinky.List android:entries="@array/privacy_mode" android:title="Privacy Mode" android:key="kinky.private" android:summary="hides conversations screen messages" android:entryValues="@array/privacy_mode" />
+	<kinky.T android:title="No Pull" android:summary="disables pull to search" android:key="kinky.pull" />
+</PreferenceScreen>
