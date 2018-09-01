@@ -180,6 +180,22 @@
     return-void
 .end method
 
+.method public static closeMain(Landroid/app/Activity;)V
+    .registers 2
+    .param p0, "c"    # Landroid/app/Activity;
+
+    .line 314
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    .line 315
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
+
+    .line 316
+    return-void
+.end method
+
 .method private a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
     .locals 3
 

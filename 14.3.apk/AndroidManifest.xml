@@ -111,6 +111,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+		<activity android:name="kik.android.chat.activity.kinkyPass" android:label="@string/app_name" />
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.activity.KikCropActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="kik.android.chat.activity.KikPlatformLanding" android:noHistory="true" android:taskAffinity="" android:theme="@style/SplashTheme">
             <intent-filter>

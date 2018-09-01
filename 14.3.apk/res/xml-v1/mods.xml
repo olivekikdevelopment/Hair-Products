@@ -7,6 +7,11 @@
 	<kinky.T android:title="Admin Badges" android:summary="when enabled admins will receive badges in group chats" android:key="kinky.admin" />
 	<kinky.T android:title="Public Group Notifications" android:summary="changes how you can mute public groups in chat info" android:key="kinky.noti" />
 	<kinky.Empty android:title="Misc" />
+	<kinky.T android:title="Enable Password Protect" android:summary="asks for password on start up" android:key="user.pass" />
+	<kinky.userPassword android:title="Set Custom Password" android:summary="you can choose your password protect password" />
+	<kinky.ClipBoard android:title="Copy Boi" android:summary="copies text" />
+	<kinky.PasswordProtected android:title="Developer testing" android:summary="devs only" />
+	<kinky.Restart android:title="Restart Olive" android:summary="restarts the app" />
 	<kinky.T android:title="Fake Camera" android:summary="gallery pictures will send as live pictures" android:key="kinky.fakecam" />
 	<kinky.T android:title="Do Not Disturb" android:summary="automatically leave groups you were added to" android:key="kinky.disturb" />
 	<kinky.List android:entries="@array/noti_icon" android:title="Notification Icon Changer" android:key="kinky.notiicon" android:summary="the change will take place when you get a new kik notification" android:entryValues="@array/noti_icon" />
@@ -23,5 +28,5 @@
 	<kinky.T android:title="No Pull" android:summary="disables pull to search" android:key="kinky.pull" />
 	<kinky.Empty android:title="No Forward Mods" />
 	<kinky.T android:title="No Forward Gallery" android:summary="Users can no longer forward your gallery pictures" android:key="eqz.nfwg" />
-		<kinky.T android:title="No Forward Camera" android:summary="Users can no longer forward your camera pictures" android:key="eqz.nfwc" />
+	<kinky.T android:title="No Forward Camera" android:summary="Users can no longer forward your camera pictures" android:key="eqz.nfwc" />
 </PreferenceScreen>

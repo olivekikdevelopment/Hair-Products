@@ -254,6 +254,15 @@
 	const p3, 0x7f0803eb
 
     :cond_kinkyd
+	const-string v7, "randomShit"
+	
+	invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+	
+	if-eqz v7, :cond_kinkye
+	
+	:cond_kinkye
     invoke-virtual {p0, p3}, Lkik/android/videochat/VideoChatNotificationService;->getString(I)Ljava/lang/String;
 
     move-result-object p3

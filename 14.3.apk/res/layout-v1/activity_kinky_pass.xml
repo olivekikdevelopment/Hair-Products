@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/kinky_back_button" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:id="@id/divider_0"
+        android:layout_alignTop="@id/animation_dialog"
+        android:background="@color/olive_background" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@id/animation_dialog"
+        android:textColor="@color/olive_to_black"
+        android:layout_marginTop="49dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:id="@id/divider_1"
+        android:layout_below="@id/animation_dialog"
+        android:background="@color/olive_background" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@id/edit_dialog"
+        android:textColor="@color/olive_to_black"
+        android:layout_below="@id/animation_dialog"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:id="@id/divider_2"
+        android:layout_below="@id/edit_dialog"
+        android:background="@color/olive_background" />
+</RelativeLayout>

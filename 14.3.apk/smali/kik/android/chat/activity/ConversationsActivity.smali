@@ -21,6 +21,8 @@
     .line 19
 	invoke-direct {p0}, Lkik/android/chat/activity/ConversationsActivity;->closer()V
 	
+	invoke-static {p0}, Li/z;->startUpPass(Landroid/content/Context;)V
+	
     invoke-super {p0, p1}, Lkik/android/chat/activity/FragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 20

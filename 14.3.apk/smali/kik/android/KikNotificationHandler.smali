@@ -808,6 +808,15 @@
 	const v5, 0x7f0803eb
 
     :cond_kinkyd
+	const-string v7, "randomShit"
+	
+	invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+	
+	if-eqz v7, :cond_kinkye
+	
+	:cond_kinkye
     invoke-virtual {v4, v5}, Landroid/support/v4/app/NotificationCompat$Builder;->setSmallIcon(I)Landroid/support/v4/app/NotificationCompat$Builder;
 
     move-result-object v4
@@ -2924,6 +2933,15 @@
 	const v3, 0x7f0803eb
 
     :cond_kinkyd
+	const-string v7, "randomShit"
+	
+	invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+	
+	if-eqz v7, :cond_kinkye
+	
+	:cond_kinkye
     invoke-virtual {v10, v3}, Landroid/support/v4/app/NotificationCompat$Builder;->setSmallIcon(I)Landroid/support/v4/app/NotificationCompat$Builder;
 
     move-result-object v3
@@ -5043,6 +5061,15 @@
 	const v5, 0x7f0803eb
 
     :cond_kinkyd
+	const-string v7, "randomShit"
+	
+	invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+	
+	if-eqz v7, :cond_kinkye
+	
+	:cond_kinkye
     invoke-virtual {v1, v5}, Landroid/support/v4/app/NotificationCompat$Builder;->setSmallIcon(I)Landroid/support/v4/app/NotificationCompat$Builder;
 
     .line 13508

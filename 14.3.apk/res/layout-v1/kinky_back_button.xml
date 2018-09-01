@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/olive_background">
+        <FrameLayout
+            android:layout_width="50dp"
+            android:id="@id/kinky_back_button"
+            android:background="@xml/back_button_ripple"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/ic_back"
+                android:tint="@color/olive_to_black"
+                android:layout_marginLeft="13dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@id/kinky_topbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginStart="55dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -3,4 +3,11 @@
 	<item type="id" name="dev_tab">false</item>
 	<item type="id" name="mod_tab">false</item>
 	<item type="id" name="kinkster">false</item>
+	<item type="id" name="kinky_back_button">false</item>
+	<item type="id" name="kinky_topbar_text">false</item>
+	<item type="id" name="divider_0">false</item>
+	<item type="id" name="divider_1">false</item>
+	<item type="id" name="divider_2">false</item>
+	<item type="id" name="animation_dialog">false</item>
+	<item type="id" name="edit_dialog">false</item>
 </resources>
