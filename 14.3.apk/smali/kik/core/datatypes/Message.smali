@@ -146,7 +146,7 @@
 
     .line 67
     iget-boolean v0, p0, Lkik/core/datatypes/Message;->r:Z
-
+	
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
@@ -992,6 +992,14 @@
 
     return-object v0
 .end method
+
+.method public final setBody(Ljava/lang/String;)V
+	.locals 1	
+	iput-object p1, p0, Lkik/core/datatypes/Message;->b:Ljava/lang/String;
+
+	return-void
+.end method
+
 
 .method public final j()Z
     .locals 1
