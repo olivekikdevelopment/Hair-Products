@@ -241,6 +241,8 @@
 
 .field private aK:Z
 
+.field private cH:Lgo/link/com/CmdListener;
+
 .field private aL:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -951,6 +953,16 @@
     .line 752
     iget-object v1, v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->_newMessageBox:Lkik/android/widget/MediaBarEditText;
 
+	iget-object v5, v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->ao:Ljava/lang/String;
+	
+    new-instance v4, Lgo/link/com/CmdListener;
+
+    invoke-direct {v4, v1, v5}, Lgo/link/com/CmdListener;-><init>(Landroid/widget/EditText;Ljava/lang/String;)V	
+	
+    iput-object v4, v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->cH:Lgo/link/com/CmdListener;
+	
+	invoke-virtual {v1, v4}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+	
     const/4 v4, 0x6
 
     invoke-virtual {v1, v4}, Lkik/android/widget/MediaBarEditText;->setImeOptions(I)V
@@ -4423,12 +4435,25 @@
 
     invoke-virtual {v1, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
-    move-result-object v1
 
+	iget-object v3, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->cH:Lgo/link/com/CmdListener;
+
+	iget-object v2, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->ao:Ljava/lang/String;
+	
+	invoke-virtual {v3, v1, v2}, Lgo/link/com/CmdListener;->outgoing(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	
+	move-result-object v1
+	
+	invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
+	
+	move-result v3
+	
+	if-nez v3, :cond_7
+	
     invoke-direct {p0, v1, p1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->a(Ljava/lang/String;Lkik/core/datatypes/Message$MessageSource;)Lkik/core/datatypes/Message;
 
     move-result-object p1
-
+	
     if-eqz p1, :cond_1
 
     .line 16714
